@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rensyu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+   
+        <style>
+            .kato{
+                width:30%;
+            
+        }
+       
+        
+        </style>
+
+</head>
+<body>
+
+    <! ========================Navigation=====================>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+        <div class="container-fluid">
+         <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span> </button>
+          <!=======↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ハンバーガーメニューアイコンとかをつくるやつ　spanタグはただのマーク　　=>
+
+          <!=======↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓　　上のdata-targetで指定したやつを開く idで指定　　　=>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                   
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#camp">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Connect</a>
+                </li>
+            </ul>
+          </div>         
+        </div>
+    </nav>
+
+<! ========================image slider  この下のやつはお決まり   indicatorは自動で切り替わるタイプ=====================>
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1" ></li>
+        <li data-target="#slides" data-slide-to="2" ></li>
+    </ul>
+    <div class="carousel-inner">
+        
+<! ～～～～～～～～～1枚目のimageはactiveにする～～～～～>
+            <div class="carousel-item active">
+                <img class="img-fluid" src="DSC_0021.JPG">
+                <div class="carousel-caption">
+                    <h1 class="display-2">杉田アウトドアch </h1>
+                    <h3>Official Web Page</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">GALALLY</button>
+                    <button type="button" class="btn btn-primary btn-lg">Get Start</button>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="img-fluid" src="DSC_0018.JPG">
+            </div>
+
+            <div class="carousel-item">
+                <img class="img-fluid" src="DSC_0019.JPG">
+               
+            </div>
+        </div>
+    </div>
+
+    <!==========================Jumbbotron 14:00~22:00  =================================>
+    
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p>キャンプ、釣り、DIYといったアウトドアを季節に合わせて楽しむ。東海地方を中心に活動して発信していく。
+                    大学時代の研究室のメンバーを主軸として様々なメンバーで活動を広げていく。</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><button type="button" class="btn btn-outline-secondary btn-">Web Hosting</button></a>
+            </div>
+        </div>
+       
+    </div>
+    
+    <!==========================Welcom Section  22:00~ ??=================================>
+    
+
+
+
+
+
+
+    
+    
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="tento.png" class="img-fluid tento" >
+                <h3>キャンプ</h3>
+                <p>真冬以外の春～秋に出かけることができる。季節に合わせた標高の山を選択することで快適に過ごすことができる。</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+             <img src="sakana.png" class="img-fluid sakana" >
+                <h3>釣り</h3>
+                <p>三河湾内の海での活動が中心。キャンプと同様に真冬以外は一年中活動できる。たまに遠州灘にもでかけることもある。今後は船釣りにもチャレンジをしていきたい。</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                    <i class="fa fa-wrench" aria-hidden="true"></i>
+
+               
+                <h3>DIY</h3>
+                <p>キャンプに行けない真冬や、雨の日に作業をすることが多い。キャンプで使う机などをはじめとして様々なものを製作する。今後は木材以外のものも作っていきたい。</p>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <!==========================TWO COlumn Section  28:00~ ??=================================>
+    
+    <div class="container-fluid padding">
+        <div class="row padding" id="camp">
+            <div class="col-md-12 col-lg-6">
+                <h2>チャンネルの概要</h2>
+                <p>　アウトドアでの活動内容をどんどん発信します。キャンプをただ楽しんでいる内容や、キャンプ初心者向けの基本情報や、キャンプ場のレビュー、キャンプ動画のレビューなど有益な情報を届けていきます。</p>
+                <p>　最近はキャンプをすることが多いですが、釣りやアウトドアも楽しんでいきたいです。キャンプ、釣り、DIYは連携して楽しむことで効率的、かつ楽しみ方の相乗効果があります。</p>
+                <p>　アウトドアを楽しむだけでなく、アウトドアの内容を撮影、編集し、発信していくことの楽しさも伝えていきたいと思います。</p>
+                <br>
+                <a href="#" class="btn btn-primary">チャンネル登録はこちら</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="DSC_0016.JPG" class="img-fluid">
+                 </div>
+        </div >
+        
+    </div>
+    <hr class="my-4">
+
+    <!==========================fixed background  34:00~ ??=================================>
+    
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed"></div>
+        </div>
+    </figure>
+    
+    
+    
+</body>
+</html>
+
+<!==========================Emoji section 35:00~ ??=================================>
+
+
+
+
+
+
+<button class="fun" data-toggle="collapse" data-target="#emoji">CLICK!　キャンプPHOTO
+    </button>
+<div id="emoji" class="collapse">
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-sm-6 col-md-6">
+                <img class="moji img-fluid" src="moji1.JPG">
+            </div>
+            <div class="col-sm-6 col-md-6">
+                    <img class="moji img img-fluid" src="moji2.JPG">
+            </div>
+            <div class="col-sm- col-md-6">
+                    <img class="moji img-fluid" src="moji3.JPG">
+            </div>
+            <div class="col-sm-6 col-md-6">
+                    <img class="moji img-fluid" src="moji4.JPG">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!==========================Meet the team 39:00~ ??=================================>
+
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Meet the Team 鈴木研究室</h1>
+        </div>
+        <hr>
+    </div>
+</div>
+
+<!==========================Cards 40:00~=================================>
+
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-imd-top img-fluid" src="sugi2.jpg" >
+                <div class="card-body">
+                    <h4 class="card-title">杉田 篤志</h4>
+                    <p class="card-text">もともと釣りは趣味だったが、キャンプをきっかけにDIYにも目覚め、動画編集、プログラミングにも没頭し、様々なコンテンツ制作を行っている天才。</p>
+                    <a href="#" class="btn btn-outline-secondary">see profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-imd-top img-fluid" src="kazuki.JPG">
+                <div class="card-body">
+                    <h4 class="card-title">田中 一輝</h4>
+                    <p class="card-text">国土交通省 中部地方整備局のエース。アウトドア歴はメンバーの中で一番浅いが的確なコメントで動画コミカルにしたりスパイスを与えてくれる特別な存在である。</p>
+                    <a href="#" class="btn btn-outline-secondary">see profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-imd-top img-fluid" src="miyanoue.JPG">
+                <div class="card-body">
+                    <h4 class="card-title">宮之上 達也</h4>
+                    <p class="card-text">キャンプの素晴らしさを杉田に教えてくれた天使。最もアウトドア歴が長い。アウトドア以外にもレースや自転車、ゲーム、パソコン、動物、、、、、様々なものを愛するハイスペックな男。</p>
+                    <a href="#" class="btn btn-outline-secondary">see profile</a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+
+<!==========================TWO colum section 45:00~=================================>
+
+
+<div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2 class="yyy">ペット</h2>
+                <p>杉田家で飼われている猫。杉田兄が大学在学中に拾って育て、実家に持って帰ってきた。</p>
+                <p>最初は杉田家は猫に対して好意的ではなかったが、今となっては家族の人気者である。</p>
+                <br>
+                <a href="#" class="btn btn-primary">cat food</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="yamato.JPG" class="img-fluid">
+            </div>
+        </div >
+        
+    </div>
+    <hr class="my-4">
+
+    <!==========================Connect 49:00~=================================>
+    
+    
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect    SNS</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <!==========================Footer 51:00~55:00=================================>
+    
+    <footer>
+        <div class="container-fluid padding">
+                <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="logoch.png" class="img-fluid w-50">
+                    <hr class="light">
+                    <p>052-554-66</p>
+                    <a>email:</a>
+                    <p>愛知県岡崎市</p>
+                    <p>杉田　</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>鈴木研究室</h5>
+                    <hr class="light">
+                    <p>052-6</p>
+                     <p>愛知県</p>
+                    <p>口</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>キャンプ場</h5>
+                    <hr class="light">
+                    <p>愛知県　長野県　岐阜県　静岡県　三重県</p>
+                    <p>標高1000ｍが基本</p>
+                    <p>3月～11月</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light">
+                    <h5>&copy; sugita.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
