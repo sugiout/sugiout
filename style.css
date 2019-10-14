@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html,body{
+    height:100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.navbar{
+    padding: 1rem;
+   
+}
+
+.navbar-nav li{
+    padding-right: 100px;
+  
+}
+
+.nav-link{
+    font-size: 1.2em !important;
+    color: #d5d5d5!important;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h{
+ font-size: 500%;
+ text-transform: uppercase;
+ text-shadow: 10px 10px 10px #000;
+ 
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+.btn-primary{
+    background-color:#00aded;
+    border: 1px solid1 #b4b4b4;
+}
+    
+.btn-primary:hover{
+        background-color:darkblue;
+        border: 1px solid #563d7c;
+}
+
+.jumbotron{
+padding: 5rem;
+border-radius: 0;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+.welcom{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin: 3rem 0 1rem 0;
+
+
+}
+
+
+.tento{
+    color: lightcoral;
+}
+.fa-bold{
+    color: #5637cd;
+}
+.fa-wrench{
+    color: darkturquoise;
+}
+.tento{
+height: 100px;
+width: auto;
+} 
+.sakana{
+    height: 100px;
+    width: auto;
+    } 
+.fa-code, 
+
+.fa-wrench{
+font-size: 4em;
+margin: 1rem;
+}
+.fun{
+    width: 100%;
+     margin-bottom: 10%;
+   
+}
+
+.gif{
+    max-width: 100%;
+}
+
+.social a{
+    font-size: 4.5em;
+    padding: 3em;
+
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #00aded;
+}
+.fa-google-plus-g{
+    color: #dd4b39;
+}
+.fa-instagram{
+    color: #5637cd
+}
+.fa-youtube{
+    color: #bb0000;
+}
+
+.fa-facebook:hover{
+    color:#b4b4b4;
+}
+.fa-twitter:hover{
+    color:#b4b4b4;
+} 
+.fa-google-plus-g:hover{
+    color:#b4b4b4;
+} 
+.fa-instagram:hover{
+    color:#b4b4b4;
+} 
+.fa-youtube:hover{
+    color:#b4b4b4;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding: 30px 0 20px 0 ;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin: 1rem 0 1rem 0;
+
+}
+
+footer a{
+    color: blue;
+}
+
+hr.lighit-100{
+    border-top: 100px solid #d5d5d5;
+    width: 75%;
+    margin: 1rem 0 1rem 0;
+}
+
+/*============Media Queries================================*/
+@media (max-width: 992px){
+    .social a {
+        font-size: 4em;
+        padding:2rem;
+    }
+}
+@media (max-width:768px){
+    .carousel-caption{
+        top: 45%;
+           }
+    .carousel-caption h1{
+     font-size: 350%;
+      
+    }
+    .carousel-caption h3{
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: 2rem;
+    }
+    .carousel-caption .btn{
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4{
+        font-size: 200%;
+    }
+    .social a{
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+}
+@media(max-width:576px){
+    .carousel-caption{
+        top: 40%;
+           }
+    .carousel-caption h1{
+     font-size: 250%;
+      
+    }
+    .carousel-caption h3{
+        font-size: 110%;
+        
+    }
+    .carousel-caption .btn{
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .display-4{
+        font-size: 160%;
+    }
+    .social a{
+        font-size: 2em;
+        padding: 0.7rem;
+    }
+}
+
+
+
+
