@@ -1,7 +1,7 @@
 
 
     
-    $(function() {
+window.onload = function() {
       
         
 
@@ -122,4 +122,4 @@
    
 
     
-  });
+  }
