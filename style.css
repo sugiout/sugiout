@@ -311,4 +311,27 @@ hr.lighit-100{
     display:block;
 }
 
-/*actibeをいどうさせるやつここから*/
+/*activeをいどうさせるやつここまで　↑↑*/
+
+
+/*スライドはここから*/
+
+
+.syasin{
+    display: none;
+}
+.activephoto{
+    display:block;
+    }
+
+.prev-btn {
+    cursor: pointer;
+    float: left;
+  display: none;
+        
+ }
+ .next-btn {
+    cursor: pointer;
+    float: right;
+        
+ }
